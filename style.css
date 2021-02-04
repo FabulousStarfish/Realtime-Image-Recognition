@@ -1,0 +1,52 @@
+#background{
+    background-image: url("background.jpg");
+}
+#heading{
+    background-color: #ebc46f;
+    color: #0f1f39;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    font-size: 27.5px;
+    width: 100%;
+}
+#SecondDiv{
+    background-color: #0f1f39;
+    color: #ebc46f;
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+#objects{
+    font-size: 15px;    
+    cursor: pointer;
+}
+.answer{
+    background-color: #ebc46f;
+    color: #0f1f39;  
+    font-size: 20px;  
+    width: fit-content;
+    padding: 10px;
+    bottom: 0;
+    position: center;
+    margin-top: 375px;
+}
+canvas{
+    box-shadow: 0px 0px 20px #ebc46f;    
+}
+.img{
+    height: 0.001px;
+}
+#objects_image{
+    visibility: hidden;
+}
+#SecondDiv:hover #objects_image{
+    visibility: visible;
+}
+#SecondDiv:hover .img{
+    height: 50px;
+}
+#SecondDiv:hover #objects{
+    visibility: hidden;
+    font-size: 1px;
+}
